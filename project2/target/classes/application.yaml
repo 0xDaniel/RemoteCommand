@@ -1,0 +1,9 @@
+knf:
+    app:
+        jwtExpirationMs: 76300000
+        jwtSecret: SECRETTOKEN
+spring:
+    data:
+        mongodb:
+            uri: mongodb://daniel:wOqbc2oFCrjLV7lR@ac-1lkclym-shard-00-00.ivjedx3.mongodb.net:27017,ac-1lkclym-shard-00-01.ivjedx3.mongodb.net:27017,ac-1lkclym-shard-00-02.ivjedx3.mongodb.net:27017/?ssl=true&replicaSet=atlas-c5jg4w-shard-0&authSource=admin&retryWrites=true&w=majority
+            database: cluste0

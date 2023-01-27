@@ -1,0 +1,9 @@
+knf:
+    app:
+        jwtExpirationMs: 76300000
+        jwtSecret: SECRETTOKEN
+spring:
+    data:
+        mongodb:
+            uri:
+            database:
